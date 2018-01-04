@@ -1,0 +1,20 @@
+Description of Behavioral Output Titling.
+
+E.g. "AF+EA_M_32_F1-121417-1.txt"
+
+AF+EA represents two races represented in this set of faces, African and East Asian. Other possibilities include EU+SA, European and South Asian.
+
+M represents the sex of the faces, male. F, female is also a possibility.
+
+The string of numbers following M or F represent the face pair. Because each discrete pair of faces is represented by a number, we can tell how many pairs were in the run by counting the number of numbers in the string. We consider 10 as one number. Also, each face pair has two versions, so there are eight versions total.
+	1 Face Pair: 1; 5
+	2 Face Pair: 32; 76
+	3 Face Pair: 654; 8910
+	4 Face Pair: 1234; 10987
+In our example, 32 represents 2 Face Pairs.
+
+F1 represents which face in the pair is labelled as a target. There are two faces in the pair, so the other possibility is F2.
+
+We designated 121417 as our subject ID.
+
+We ran each section only once, hence the -1 suffix.
