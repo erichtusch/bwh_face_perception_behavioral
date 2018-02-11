@@ -1,3 +1,4 @@
+### Each run has 3 blocks ###
 score.beh.run <- function(file.contents){
   ##### Scoring Behavioral Data from single run in  Face Perception Task #####
   require(dplyr)
